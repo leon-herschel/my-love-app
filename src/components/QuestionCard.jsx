@@ -32,12 +32,13 @@ export default function QuestionCard({ question, next }) {
 
         <button
           onMouseEnter={moveNo}
+          onClick={moveNo}
           style={
             isMoving
               ? { position: "absolute", ...position }
               : {}
           }
-          className="bg-red-400 text-white px-6 py-3 rounded-full shadow-md hover:bg-red-500 transition duration-300"
+          className="bg-red-400 text-white px-6 py-3 rounded-full shadow-md transition duration-300 hover:cursor-default"
         >
           No
         </button>
