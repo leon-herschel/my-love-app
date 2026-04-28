@@ -21,7 +21,7 @@ export default function FinalPage() {
     const messages = [
       "Sure gyud?",
       "Think again...",
-      "Engk wrong answer",
+      "Last chance",
     ];
 
     const next = noClicks + 1;
