@@ -1,5 +1,6 @@
 import confetti from "canvas-confetti";
 import { useState } from "react";
+import us from "../assets/us.jpg";
 
 export default function FinalPage() {
   const [accepted, setAccepted] = useState(false);
@@ -83,7 +84,7 @@ export default function FinalPage() {
         <div className="text-center animate-fade-in max-w-md">
 
             <img
-              src="/dist/assets/us.jpg"
+              src={us}
               alt="us"
               className="rounded-xl mb-5 w-full object-cover"
             />
