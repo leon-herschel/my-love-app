@@ -83,7 +83,7 @@ export default function FinalPage() {
         <div className="text-center animate-fade-in max-w-md">
 
             <img
-              src="/us.jpg"
+              src="/public/us.jpg"
               alt="us"
               className="rounded-xl mb-5 w-full object-cover"
             />
